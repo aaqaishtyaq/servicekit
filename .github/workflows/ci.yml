@@ -38,4 +38,4 @@ jobs:
         GOFLAGS: -mod=mod
       run: go test -race -coverpkg=./... -coverprofile=coverage.txt ./...
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
